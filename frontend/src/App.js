@@ -1,5 +1,5 @@
 import './App.css';
-import Item from './components/Item';
+
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import {Route} from 'react-router-dom';
