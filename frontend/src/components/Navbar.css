@@ -1,0 +1,18 @@
+.navbar {
+    background-color: crimson;
+    height: 150px;
+    display:flex;
+    justify-content:space-evenly;
+
+
+
+}
+
+.cart{
+    height: 50px;
+    margin: 50px;
+}
+.link{
+    height:30px;
+    margin:60px;
+}
