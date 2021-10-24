@@ -35,11 +35,11 @@ function Categories(){
 
     return (
         <div>
+            <h1>Kategooriad</h1>
+            <CategoryList categories={loadedCategories} />
             <Link to= "add-category">
                 <button>Lisa uus kategooria</button>
             </Link>
-            <CategoryList categories={loadedCategories} />
-
 
         </div>
     )

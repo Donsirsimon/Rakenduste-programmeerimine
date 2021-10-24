@@ -1,0 +1,36 @@
+.itemName{
+    display:inline-flex;
+}
+.itemPrice{
+    display:inline
+}
+.itemCategory{
+    display:inline
+}
+h3{
+    display:inline  ;
+}
+.itemContainer{
+    border: 2px solid #AA1521;
+    border-radius: 3px;
+    box-sizing:inherit;
+    width: 200px;
+    padding: 10px;
+    margin:10px;
+    align-self: center;
+    align-items:left;
+    text-align: left;
+    
+	
+	
+	background-color: #FBFBFB;
+	
+}
+.priceContainer{
+    text-align: left;
+}
+.itemList{
+    display:flex;
+    justify-content: center;
+    
+}

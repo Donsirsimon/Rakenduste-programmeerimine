@@ -1,0 +1,93 @@
+button {
+	color: #F6CB0A;
+	background-color: #AA1521;
+	outline: none;
+	border-radius: 5px;
+	width: 200px;
+	margin: auto;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+button:not(:disabled):active {
+	background-color: #AA1521;
+}
+
+button:focus {
+	border-color: #AA1521;
+	outline: none !important;
+
+}
+button:hover{
+	background-color: #CC1928;
+    border-color: #CC1928;
+}
+button:active{
+	transform: scale(0.98);
+	background-color: #AA1521;
+}
+
+
+.list {
+    margin-left: 1vw;
+}
+
+
+h1{
+	color:#403F4C;
+    
+}
+h2{
+	font-family: 'Electrolize', sans-serif;
+	color:#60495A;
+}
+
+.formContainer{
+    
+}
+.formContainer label{
+    
+}
+select {
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    height: 35px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+select:focus {
+    border-color: #CC1928;
+	outline: none !important;
+}
+
+
+input[type=text], input[type=password],input[type=submit], input[type=button], button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+    width: 240px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+	/*margin: 0 0 0.5em 0;*/
+	box-sizing: border-box;
+	border: 2px solid #AA1521;
+	border-radius: 5px;
+	padding-bottom: 2px;
+	
+}
+input[type=text], input[type=password], input[type=select], select{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+input:focus {
+	border-color: #CC1928;
+	outline: none !important;
+}
+input:disabled {
+	color: #ccc;
+}

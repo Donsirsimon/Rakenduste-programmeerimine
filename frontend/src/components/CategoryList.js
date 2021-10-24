@@ -1,8 +1,8 @@
 import Category from '../components/Category';
-
+import './Category.css';
 
 function CategoryList(props){
-    return (<div>
+    return (<div className="categoryList">
         {props.categories.map(category => (
             <Category 
             key={category.id}

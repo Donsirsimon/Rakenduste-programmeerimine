@@ -1,8 +1,8 @@
 import Item from '../components/Item';
-
+import './Item.css';
 
 function ItemList(props){
-    return (<div>
+    return (<div className="itemList">
         {props.items.map(item => (
             <Item 
             key={item.id}

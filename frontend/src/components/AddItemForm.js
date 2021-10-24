@@ -1,5 +1,6 @@
 import './AddItemForm.css'
 import { useRef } from 'react';
+import '../Global.css'
 
 function AddItemForm(props){
     const nameInputRef = useRef();
@@ -30,15 +31,17 @@ function AddItemForm(props){
 
 
     return (
-        <form onSubmit={formSubmitHandler}>
-            <label>Eseme nimi</label><br />
-            <input type="text" placeholder="Nimi" required ref={nameInputRef} /><br />
-            <label>Eseme hind</label><br />
-            <input type="text" required ref={priceInputRef} /><br />
-            <label>Eseme kategooria</label><br />
-            <input type="text" required ref={categoryInputRef} /><br />
-            <button>Sisesta uus ese</button>
-        </form>
+        <div className="formContainer">
+            <form onSubmit={formSubmitHandler}>
+                <label>Eseme nimi:</label><br />
+                <input type="text" placeholder="Nimi" required ref={nameInputRef} /><br />
+                <label>Eseme hind:</label><br />
+                <input type="text" required ref={priceInputRef} /><br />
+                <label>Eseme kategooria:</label><br />
+                <input type="text" required ref={categoryInputRef} /><br />
+                <button>Sisesta uus ese</button>
+            </form>
+        </div>
     );
 }
 

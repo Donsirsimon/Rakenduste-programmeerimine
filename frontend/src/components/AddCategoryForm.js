@@ -1,5 +1,6 @@
-import './AddCategoryForm.css'
+//import './AddCategoryForm.css'
 import { useRef } from 'react';
+import '../Global.css'
 
 function AddCategoryForm(props){
     const nameInputRef = useRef();
@@ -27,9 +28,9 @@ function AddCategoryForm(props){
 
     return (
         <form onSubmit={formSubmitHandler}>
-            <label>Kategooria nimi</label><br />
+            <label>Kategooria nimi: </label><br />
             <input type="text" placeholder="Kategooria nimi" required ref={nameInputRef} /><br />
-            <label>Kategooria tüüp</label><br />
+            <label>Kategooria tüüp: </label><br />
             <select ref={categoryInputRef}>
                 <option value="PREMIUM">PREMIUM</option>
                 <option value="DELUXE">DELUXE</option>
