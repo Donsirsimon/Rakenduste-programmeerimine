@@ -1,0 +1,14 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+    justify-content: center;
+    align-content: center
+
+    ;
+  }
+
+
+  .add-post-form {
+    max-width: 500px;
+  }

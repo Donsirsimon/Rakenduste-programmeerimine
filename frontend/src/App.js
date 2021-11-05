@@ -6,6 +6,9 @@ import Cart from './pages/Cart';
 import {Route} from 'react-router-dom';
 import AddCategory from './pages/AddCategory';
 import Categories from './pages/Categories';
+import AdminHome from './pages/AdminHome';
+import SingleItem from './pages/SingleItem';
+import EditItem from './pages/EditItem';
 
 function App() {
   return (
@@ -26,6 +29,17 @@ function App() {
       <Route path='/categories'>
         <Categories />
       </Route>
+      <Route path='/admin'>
+        <AdminHome />
+      </Route>
+      <Route path='/item/:itemId'>
+        <SingleItem />
+      </Route>
+      <Route path='/edit-item/:itemId'>
+        <EditItem />
+      </Route>
+
+
     </div>
   );
 }
